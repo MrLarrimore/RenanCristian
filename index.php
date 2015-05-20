@@ -52,11 +52,13 @@
         <div class="jumbotron">
             <div class="container">
                 <h1 id='H1'>Welcome</h1>
-                <p id='P'>Here you will be able to learn more about students of the APP Academy by having the ability to look at projects they have made.</p>
-                <p id='P'><a class="btn btn-danger btn-lg" href="http://theappacademy.us/" role="button">Learn more &raquo;</a></p>
+                <p>Here you will be able to learn more about students of the APP Academy by having the ability to look at projects they have made.</p>
+                <p><a class="btn btn-danger btn-lg" href="LearnMore.php" role="button">Learn more &raquo;</a></p>
             </div>
         </div>
-
+        <div class='container'>
+        <hr>        
+        </div>
         <div class="container" id='bottom'>
             <div class="row">
                 <div class="col-md-4">

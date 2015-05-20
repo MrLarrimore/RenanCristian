@@ -5,6 +5,7 @@ body {
 
 .jumbotron{
     text-align: center;
+    background-color: #fff;
 }
 
 .navbar, nav{
@@ -24,6 +25,19 @@ body {
 #Register{
     text-align: center;
 }
-#Jumbo2{
+#Jumbo2, #nav2{
     background-color: #fff;
+}
+#Learn{
+    padding-top: 90px;
+    background-color: red;
+}
+#Creator{
+    padding-top: 50px;
+}
+#body2{
+    background-color: red;
+}
+#nav2{
+    border-bottom-color: #fff;
 }

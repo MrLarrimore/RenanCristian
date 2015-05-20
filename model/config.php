@@ -4,7 +4,7 @@ session_start();
 
 session_regenerate_id(true);
 
-$path = "/AppProject/";
+$path = "/RenanCristian/";
    //BELOW IS the information of the database
 $host = "localhost" ;
 //thats pretty much it

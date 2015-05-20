@@ -25,6 +25,7 @@
         <h3 id='Learn2' style="color: #fff;">We wanted APPhub to be a center, a hub, for APP Academy students to come and share there projects and look at others. We wanted to make it easy to post your projects and also view/rate others.</h3>
         <h1 id='Creator' style="color: #fff;">About The Creators</h1>
         <h3 id='Learn2' style="color: #fff;"></h3>
+        
         </div>
 </body>
 </html>

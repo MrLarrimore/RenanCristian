@@ -1,0 +1,15 @@
+.post{
+    font-size: 18px;   
+    color:darkslategrey;
+}
+div{
+    color:white;
+}
+h1{
+    border-top: 2px black solid;
+    size:36px; 
+}
+h2{
+    size:22px;
+    padding-left: 65px;
+}

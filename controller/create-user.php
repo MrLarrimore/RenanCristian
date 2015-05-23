@@ -22,10 +22,9 @@ $query = $_SESSION["connection"]->query("INSERT INTO users SET "
         . "salt = '$salt'");
 if ($query) {
 //    header("Location: " . $path . "index.php");
-    echo 'Error, could not resolve';
+    echo "succesfully logged in";
 } else {
-//    die();
-//    echo 'Fuuuu';
+
     echo "<p>" . $_SESSION["connection"]->error . "</p>";
 }
     

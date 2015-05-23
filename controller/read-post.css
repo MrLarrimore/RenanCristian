@@ -6,10 +6,14 @@ div{
     color:white;
 }
 h1{
-    border-top: 2px black solid;
-    size:36px; 
+    margin-top:25px;
+    border-top: 2px solid ;
+    border-top-color: #adadad;
+    margin-top:5px;
+    text-align: center;
 }
 h2{
-    size:22px;
-    padding-left: 65px;
+    
+    text-align: center;
+    
 }

@@ -12,13 +12,13 @@
     <div>
         <label for="title"></label>
         <!--here is the form for the blog  post  form where our posts are sent to the database-->
-        <input type="text" textholder="Name your post" name="title"/>
+        <input type="text" placeholder="Name your post" name="title"/>
     </div>
     
     <div>
         <label for="post"></label>
         <!--here is the form for the blog  post  form where our posts are sent to the database-->
-        <textarea textholder="Say/ask something smart" name="post"></textarea>
+        <textarea placeholder="Say/Ask something smart" name="post"></textarea>
     </div>
     
     <div>

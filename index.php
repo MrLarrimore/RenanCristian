@@ -12,15 +12,6 @@
     </head>
 
     <body>
-<<<<<<< HEAD
-        
-        <?php
-        
-                
-            
-        ?>
-        <div id="14321596622141" class="wE"><script src="http://widget-engine.com/w:0:003:14321596622141:2:000000:40" type="text/javascript"></script></div>
-=======
 
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
@@ -40,7 +31,7 @@
                                 <input type="text" placeholder="Username" class="form-control" name="username" />
                             </div>
                         </div>
-                          
+                        
                         <div class="form-group">
                             <div>
                                 <label for="password"> </label>
@@ -92,13 +83,13 @@
             <footer>
                 <p>&copy; Sainz & Robles Inc. 2015</p>
             </footer>
+            
         </div>
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>
         
-        <div id="14322457048054" class="wE"><script src="http://widget-engine.com/w:0:003:14322457048054:2:000000:40" type="text/javascript"></script></div>
->>>>>>> 0fe74a6c355fe23b54f74a1e9b2be577d0545742
-        
+       
     </body>
     
     

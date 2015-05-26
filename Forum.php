@@ -20,9 +20,7 @@
                         <a class="blog-nav-item" href="index.php">Home</a>
                         <a class="blog-nav-item" href="register.php">Register</a>
                         <a class="blog-nav-item active" href="index.php">Forum</a>
-                        
                         <!--the code in navigation.php makes both links post.php and logout-user.php visible only once the user has been signed in-->
-                        <a class="blog-nav-item" href="<?php echo $path . "controller/logout-user.php" ?>">logout</a>
                         <a class="blog-nav-item" href="view/form.php">Post</a>
                     </div>
                 </div>

@@ -21,33 +21,71 @@
                 <div class="navbar-header">
                     <a  href="index.php" id='APP'><img src="IMG/Logo.png" class="img-rounded" alt="Logo" height="48" width="80" id='APP' ></a>
                 </div>
-                
+
                 <div id="navbar" class="navbar-collapse collapse">
-                        <form class="navbar-form navbar-right" method='post' action='<?php echo $path . "controller/login-user.php"?>'>
-                        <div class="form-group">
-                            <div>
-                                <label for="username"></label>
-                                <!--login form where you login-->
-                                <input type="text" placeholder="Username" class="form-control" name="username" />
+                    <?php
+                    require_once (__DIR__ . "/controller/login-verify.php");
+                    if (!authenticateUser()) {
+    //renan dont mess with this at all, it makes it so that you cant see the login form if you are logged in                    
+                        ?>
+                        <form class="navbar-form navbar-right" method='post' action='<?php echo $path . "controller/login-user.php" ?>'>
+                            <div class="form-group">
+                                <div>
+                                    <label for="username"></label>
+                                    <!--login form where you login-->
+                                    <input type="text" placeholder="Username" class="form-control" name="username" />
+                                </div>
                             </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <div>
-                                <label for="password"> </label>
-                                <!--where you input your password-->
-                                <input type="password" placeholder="Password" class="form-control" name="password" />
+                            <?php
+                        }
+                        ?>
+                        <?php
+                        require_once (__DIR__ . "/controller/login-verify.php");
+                        if (!authenticateUser()) {
+    //renan dont mess with this at all, it makes it so that you cant see the password form if you are logged in
+                            ?>
+                            <div class="form-group">
+                                <div>
+                                    <label for="password"> </label>
+                                    <!--where you input your password-->
+                                    <input type="password" placeholder="Password" class="form-control" name="password" />
+                                </div>
                             </div>
-                        </div>
-                        <button type="submit" class="btn btn-success">Sign in</button>
-                       
-                        
-                        
-                        <a type="submit" class="btn btn-info" href="register.php">Register</a>
+                            <?php
+                        }
+                        ?>
+                        <?php
+                        require_once (__DIR__ . "/controller/login-verify.php");
+                        if (!authenticateUser()) {
+    //renan dont mess with this at all, it makes it so that you cant see the Sign in button if you are logged in
+                            ?>
+                            <button type="submit" class="btn btn-success">Sign in</button>
+                            <?php
+                        }
+                        ?>
+                        <?php
+                        require_once (__DIR__ . "/controller/login-verify.php");
+                        if (!authenticateUser()) {
+    //renan dont mess with this at all, it makes it so that you cant see the Register button if you are logged in
+                            ?>
+                            <a type="submit" class="btn btn-info" href="register.php">Register</a>
+                            <?php
+                        }
+                        ?>
+                                    <?php
+                            require_once (__DIR__ . "/controller/login-verify.php");
+                            if (authenticateUser()) {
+    //renan dont mess with this at all, it makes it so that you cant see the login form if you are logged in
+                                ?>
+                           <a  class="btn btn-success" href="<?php echo $path . "controller/logout-user.php" ?>">logout</a>
+                                <?php
+                            }
+                            ?>
                         </form>
                 </div>
             </div>
         </nav>
+
 
         <div class="jumbotron">
             <div class="container">
@@ -57,7 +95,7 @@
             </div>
         </div>
         <div class='container'>
-        <hr>        
+            <hr>        
         </div>
         <div class="container" id='bottom'>
             <div class="row">
@@ -83,13 +121,11 @@
             <footer>
                 <p>&copy; Sainz & Robles Inc. 2015</p>
             </footer>
-            
+
         </div>
-        
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>
-        
-       
+
+
     </body>
-    
-    

@@ -1,19 +1,6 @@
 <link type="text/css"  rel="stylesheet" href="CSS/register.css"> 
 <?php
     require_once(__DIR__ . "/../model/config.php");
-    if (authenticateUser()) {
-        ?>
-        <div id="li" class = "container">
-            <div class = "jumbotron">    
-                <h3>If you wish to make a new account and/or login please logout of this account first!!!</h3>
-                <a class="btn btn-primary btn-md" type="button" href="controller/logout-user.php" class="btn btn-default">Logout</a>
-                <a class="btn btn-primary btn-md" type="button" href="index.php" class="btn btn-default">Home</a>
-            </div>
-        </div >
-        <?php
-        //this is to make the page redirect once the form has been sent to the database
-        die();
-    }
     ?>
 <div class="container">
 <h1 id="Register">Register</h1>

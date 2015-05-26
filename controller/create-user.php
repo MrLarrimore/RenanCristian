@@ -21,8 +21,9 @@ $query = $_SESSION["connection"]->query("INSERT INTO users SET "
         . "password = '$hashedPassword',"
         . "salt = '$salt'");
 if ($query) {
-//    header("Location: " . $path . "index.php");
-    echo "succesfully logged in";
+    
+  header("Location: " . $path . "index.php");
+    
 } else {
 
     echo "<p>" . $_SESSION["connection"]->error . "</p>";

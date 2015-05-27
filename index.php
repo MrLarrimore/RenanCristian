@@ -77,7 +77,9 @@
                             if (authenticateUser()) {
     //renan dont mess with this at all, it makes it so that you cant see the login form if you are logged in
                                 ?>
-                           <a  class="btn btn-success" href="<?php echo $path . "controller/logout-user.php" ?>">logout</a>
+                            <div class="navbar-form navbar-right">
+                           <a class="btn btn-success" href="<?php echo $path . "controller/logout-user.php" ?>">logout</a>
+                            </div>
                                 <?php
                             }
                             ?>

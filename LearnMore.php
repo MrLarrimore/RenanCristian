@@ -13,7 +13,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top" id='nav2'>
             <div class="container">
                 <div class="navbar-header">
-                    <a  href="index.php" id='APP'><img src="IMG/Logo.png" class="img-rounded" alt="Logo" height="48" width="80" id='APP' ></a>
+                    <a  href="index.php" id='APP'><img src="IMG/APPhub2.png" class="img-rounded" alt="Logo" height="48" width="60" id='APP' ></a>
                 </div>
                 </div>
         </nav>

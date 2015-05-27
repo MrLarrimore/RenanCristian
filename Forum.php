@@ -15,7 +15,7 @@
             <nav class="blog-nav" class="navbar navbar-inverse navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">
-                        <a  href="index.php" id='APP'><img src="IMG/Logo.png" alt="Logo" class="img-rounded" height="48" width="80" id='APP' ></a>
+                        <a  href="index.php" id='APP'><img src="IMG/APPhub2.png" class="img-rounded" alt="Logo" height="48" width="60" id='APP' ></a>
                         <a class="blog-nav-item" href="index.php">Home</a>
                         <a class="blog-nav-item" href="register.php">Register</a>
                         <a class="blog-nav-item active" href="index.php">Forum</a>

@@ -12,7 +12,7 @@
     
     
     if($query){
-       echo "succesfully created post";
+        header("Location: " . $path . "Forum.php");
   //i changed it so that once the user has inserted a post it wont say "successfully inserted post" and it will take the user back to the home page
 
     }

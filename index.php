@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>APPhub</title>
-        <link rel="shortcut icon" href="IMG/Logo.png">
+        <link rel="shortcut icon" href="IMG/APPhub2.png">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link type="text/css"  rel="stylesheet" href="css/bootstrap.min.css">
@@ -19,7 +19,7 @@
                 require_once (__DIR__ . "/model/config.php");
                 ?>
                 <div class="navbar-header">
-                    <a  href="index.php" id='APP'><img src="IMG/Logo.png" class="img-rounded" alt="Logo" height="48" width="80" id='APP' ></a>
+                    <a  href="index.php" id='APP'><img src="IMG/APPhub2.png" class="img-rounded" alt="Logo" height="48" width="60" id='APP' ></a>
                 </div>
 
                 <div id="navbar" class="navbar-collapse collapse">

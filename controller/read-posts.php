@@ -16,7 +16,7 @@
         while($row = mysqli_fetch_array($result)){
             //this is what reads pposts on my website
             echo "<div class='post'>";
-            
+//            echo "<p>" . $username['users'] . "</p>";
             echo "<h1>" . $row['title'] . "</h1>";         
             echo "<br />";
             echo "<h2>" . $row['post'] . "</h2>";

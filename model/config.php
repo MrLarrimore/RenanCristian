@@ -12,7 +12,7 @@ $username = "root";
 
 $password = "root";
 
-$database = "apphub_db";
+$database = "renancristian_db";
 
 if(!isset($_SESSION["connection"])){
     $connection = new Database($host, $username, $password, $database);

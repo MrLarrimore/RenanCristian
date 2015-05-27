@@ -1,3 +1,4 @@
+
 <html lang="en">
     <head>
         <title>App HUB</title>
@@ -19,33 +20,32 @@
                         <a class="blog-nav-item" href="index.php">Home</a>
                         <a class="blog-nav-item" href="register.php">Register</a>
                         <a class="blog-nav-item active" href="index.php">Forum</a>
-                        
                         <!--the code in navigation.php makes both links post.php and logout-user.php visible only once the user has been signed in-->
-                        <a class="blog-nav-item" href="<?php echo $path . "controller/logout-user.php" ?>">logout</a>
-                        <a class="blog-nav-item" href="<?php echo $path . "post.php" ?>">Post</a>
+                        <a class="blog-nav-item" href="view/form.php">Post</a>
                     </div>
                 </div>
              </div>
-</nav>
+          </nav>
 
-    <?php
+   <?php
         require_once (__DIR__ . "/controller/login-verify.php");
-        ?><!--these are the variables that make index.php receive information from other files-->
-        <?php
+
+        
         require_once (__DIR__ . "/view/header.php");
 
-        if (authenticateUser()) {
-            require_once(__DIR__ . "/view/navigation.php");
-        }
+         
+        require_once(__DIR__ . "/view/navigation.php");
+       
 
         require_once (__DIR__ . "/controller/create-db.php");
+        
 
         require_once (__DIR__ . "/view/footer.php");
 
+        
         require_once (__DIR__ . "/controller/read-posts.php");
         ?>
-        
-       
-        
 </body>
 </html>
+
+        

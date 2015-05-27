@@ -7,8 +7,5 @@
         ?><!--This is to make sure the user is first signed in--><?php
         die();
     } 
-    
-    
-  
 ?>
 

@@ -21,11 +21,11 @@ $query = $_SESSION["connection"]->query("INSERT INTO users SET "
         . "password = '$hashedPassword',"
         . "salt = '$salt'");
 if ($query) {
-//    header("Location: " . $path . "index.php");
-    echo 'Error, could not resolve';
+    
+  header("Location: " . $path . "index.php");
+    
 } else {
-//    die();
-//    echo 'Fuuuu';
+
     echo "<p>" . $_SESSION["connection"]->error . "</p>";
 }
     

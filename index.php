@@ -78,7 +78,7 @@
                             //renan dont mess with this at all, it makes it so that you cant see the login form if you are logged in
                             ?>
                             <div class="navbar-form navbar-right">
-                                <a class="btn btn-success" href="<?php echo $path . "controller/logout-user.php" ?>">logout</a>
+                                <a class="btn btn-success" href="<?php echo $path . "controller/logout-user.php" ?>">Logout</a>
                             </div>
                             <?php
                         }

@@ -12,7 +12,8 @@ if ($query->num_rows == 1) {
 
     if ($row["password"] === crypt($password, $row["salt"])) {
         $_SESSION["authenticated"] = true;
-        echo "<p>Login was succesful</p>";
+//        echo "<p>Login was succesful</p>";
+        header('Location: ../index.php');
     } else {
         echo "<p>Invalid username and password</p>";
     }

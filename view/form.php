@@ -1,14 +1,13 @@
 
 <html lang="en">
     <head>
-        <title>App HUB</title>
-        <link rel="shortcut icon" href="IMG/Logo.png">
+        <title>APPhub</title>
+        <link rel="shortcut icon" href="../IMG/APPhub2.png">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link type="text/css"  rel="stylesheet" href="CSS/bootstrap.min.css">
-        <link type="text/css"  rel="stylesheet" href="CSS/bootstrap.theme.min.css">
-        <link type="text/css" rel="stylesheet" href="CSS/form.css">
-        <link href="jumbotron.css" rel="stylesheet">
+        <link type="text/css"  rel="stylesheet" href="../CSS/bootstrap.min.css">
+        <link type="text/css"  rel="stylesheet" href="../CSS/bootstrap.theme.min.css">
+        <link type="text/css" rel="stylesheet" href="../CSS/form.css">
     </head>
     <body>
         
@@ -17,10 +16,10 @@
             <nav class="blog-nav" class="navbar navbar-inverse navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">
-                        <a  href="index.php" id='APP'><img src="IMG/Logo.png" alt="Logo" class="img-rounded" height="48" width="80" id='APP' ></a>
-                        <a class="blog-nav-item" href="index.php">Home</a>
-                        <a class="blog-nav-item" href="register.php">Register</a>
-                        <a class="blog-nav-item active" href="index.php">Forum</a>
+                        <a  href="../index.php" id='APP'><img src="../IMG/APPhub2.png" class="img-rounded" alt="Logo" height="48" width="60" id='APP' ></a>
+                        <a class="blog-nav-item" href="../index.php">Home</a>
+                        <a class="blog-nav-item" href="../register.php">Register</a>
+                        <a class="blog-nav-item active" href="../forum.php">Forum</a>
                         <!--the code in navigation.php makes both links post.php and logout-user.php visible only once the user has been signed in-->
                         <a class="blog-nav-item" href="view/form.php">Post</a>
                     </div>
@@ -30,7 +29,7 @@
             </nav>
           
 
-<h1>Create Blog post</h1>
+<h1>Create Forum post</h1>
 
 <form method="post" action="<?php echo $path . "controller/create-post.php"; ?>">
     <div>

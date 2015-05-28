@@ -1,7 +1,7 @@
 <html lang="en">
     <head>
-        <title>App HUB</title>
-        <link rel="shortcut icon" href="IMG/Logo.png">
+        <title>APPhub</title>
+        <link rel="shortcut icon" href="IMG/APPhub2.png">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link type="text/css"  rel="stylesheet" href="css/bootstrap.min.css">

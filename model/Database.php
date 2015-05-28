@@ -32,7 +32,7 @@ class Database {
     }
 }  
 else {
-        echo "<p>Database already exists.</p>";
+//        echo "<p>Database already exists.</p>";
 }
       }
 

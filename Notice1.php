@@ -26,7 +26,7 @@
             <!--        Just some spacing-->
         </div>
         <div class="col-lg-8" id='Acc'>
-            <h1>You must make an account to view this page</h1>
+            <h1>You must make an account or login to view this page</h1>
             <a class="btn btn-default btn-lg" href="Index.php" role="button">Back to Home</a>
             <a class="btn btn-default btn-lg" href="register.php" role="button">Register</a>
         </div>

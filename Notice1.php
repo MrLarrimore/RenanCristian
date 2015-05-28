@@ -1,4 +1,4 @@
-<html lang="en">
+<html>
     <head>
         <title>APPhub</title>
         <link rel="shortcut icon" href="IMG/APPhub2.png">
@@ -9,7 +9,8 @@
         <link type="text/css"  rel="stylesheet" href="css/custom-style.css">
         <link href="jumbotron.css" rel="stylesheet">
     </head>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <a  href="index.php" id='APP'><img src="IMG/APPhub2.png" class="img-rounded" alt="Logo" height="48" width="60" id='APP' ></a>
@@ -20,31 +21,14 @@
             </div>
         </div>
     </nav>
-    <div class="jumbotron" id="Jumbo2">
-        <h1 id='H1'>Games</h1>
-        <h4>Here you will see all the games APP Academy students have made</h4>
-    </div>
-    <div class="container">
-    <hr>
-    </div>
-    
-    <?php
-        require_once (__DIR__ . "/controller/login-verify.php");
-
         
-        require_once (__DIR__ . "/view/header.php");
-
-         
-        require_once(__DIR__ . "/view/navigation.php");
-       
-
-        require_once (__DIR__ . "/controller/create-db.php");
-        
-
-        require_once (__DIR__ . "/view/footer.php");
-
-        
-        require_once (__DIR__ . "/controller/read-posts.php");
-        ?>
-    
+        <div class="col-lg-2">
+            <!--        Just some spacing-->
+        </div>
+        <div class="col-lg-8" id='Acc'>
+            <h1>You must make an account to view this page</h1>
+            <a class="btn btn-default btn-lg" href="Index.php" role="button">Back to Home</a>
+            <a class="btn btn-default btn-lg" href="register.php" role="button">Register</a>
+        </div>
+    </body>
 </html>

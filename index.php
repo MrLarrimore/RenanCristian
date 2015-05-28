@@ -26,7 +26,7 @@
                     <?php
                     require_once (__DIR__ . "/controller/login-verify.php");
                     if (!authenticateUser()) {
-    //renan dont mess with this at all, it makes it so that you cant see the login form if you are logged in                    
+                        //renan dont mess with this at all, it makes it so that you cant see the login form if you are logged in                    
                         ?>
                         <form class="navbar-form navbar-right" method='post' action='<?php echo $path . "controller/login-user.php" ?>'>
                             <div class="form-group">
@@ -42,7 +42,7 @@
                         <?php
                         require_once (__DIR__ . "/controller/login-verify.php");
                         if (!authenticateUser()) {
-    //renan dont mess with this at all, it makes it so that you cant see the password form if you are logged in
+                            //renan dont mess with this at all, it makes it so that you cant see the password form if you are logged in
                             ?>
                             <div class="form-group">
                                 <div>
@@ -57,7 +57,7 @@
                         <?php
                         require_once (__DIR__ . "/controller/login-verify.php");
                         if (!authenticateUser()) {
-    //renan dont mess with this at all, it makes it so that you cant see the Sign in button if you are logged in
+                            //renan dont mess with this at all, it makes it so that you cant see the Sign in button if you are logged in
                             ?>
                             <button type="submit" class="btn btn-success">Sign in</button>
                             <?php
@@ -66,24 +66,24 @@
                         <?php
                         require_once (__DIR__ . "/controller/login-verify.php");
                         if (!authenticateUser()) {
-    //renan dont mess with this at all, it makes it so that you cant see the Register button if you are logged in
+                            //renan dont mess with this at all, it makes it so that you cant see the Register button if you are logged in
                             ?>
                             <a type="submit" class="btn btn-info" href="register.php">Register</a>
                             <?php
                         }
                         ?>
-                                    <?php
-                            require_once (__DIR__ . "/controller/login-verify.php");
-                            if (authenticateUser()) {
-    //renan dont mess with this at all, it makes it so that you cant see the login form if you are logged in
-                                ?>
-                            <div class="navbar-form navbar-right">
-                           <a class="btn btn-success" href="<?php echo $path . "controller/logout-user.php" ?>">logout</a>
-                            </div>
-                                <?php
-                            }
+                        <?php
+                        require_once (__DIR__ . "/controller/login-verify.php");
+                        if (authenticateUser()) {
+                            //renan dont mess with this at all, it makes it so that you cant see the login form if you are logged in
                             ?>
-                        </form>
+                            <div class="navbar-form navbar-right">
+                                <a class="btn btn-success" href="<?php echo $path . "controller/logout-user.php" ?>">logout</a>
+                            </div>
+                            <?php
+                        }
+                        ?>
+                    </form>
                 </div>
             </div>
         </nav>

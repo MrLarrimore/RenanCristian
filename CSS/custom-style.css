@@ -1,16 +1,16 @@
 body {
-  padding-top: 50px;
-  padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+#body2{
+    background-color: red;
 }
 
-.jumbotron{
-    text-align: center;
-    background-color: #fff;
-}
-
+/*Settings for the Navbar*/
 .navbar, nav{
     border-bottom-color: red;
     background-color: red;
+    /*    sets the shadow*/
     -webkit-box-shadow: 10px 10px 20px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 20px 1px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 20px 1px rgba(0,0,0,0.75);
@@ -19,32 +19,43 @@ body {
     text-decoration-color: #000;
     background-color:  rgb(230,0,0)
 }
+#nav2{
+    border-bottom-color: #fff;
+}
+/*end of navbar settings*/
+
 #APP{
     background-color: #fff;
 }
 #Register{
     text-align: center;
 }
+
+/*settings for the jumbotron*/
+.jumbotron{
+    text-align: center;
+    background-color: #fff;
+}
 #Jumbo2, #nav2{
     background-color: #fff;
 }
+/*end of jumbotron settings*/
+
+/*moved the text to a more fitting location*/
 #Learn{
     padding-top: 90px;
     background-color: red;
 }
+/*moved the text to a more fitting location*/
 #Creator{
     padding-top: 50px;
 }
-#body2{
-    background-color: red;
-}
-#nav2{
-    border-bottom-color: #fff;
-}
+/*moved the text to a more fitting location*/
 #Acc{
     padding-top: 90px;
     text-align: center;
 }
+/*fixed the error I was having in the games page*/
 #H1{
     border-top: #fff;
 }
